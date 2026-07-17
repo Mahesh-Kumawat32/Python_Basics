@@ -1,0 +1,8 @@
+1. introduction to python (history,usecase, features, installtion)
+2. variables and creation rules in python
+3. datatypes in python
+4. operators in python
+5. input function, type function in python
+6. conditional statements (if-else, if-elif-else, match case, nested if else)
+7. loops(for loop, while loop)
+8.
