@@ -207,4 +207,42 @@
 # reverse_num(temp)
 
 #24
+# ARMSTRONG NUMBER : An Armstrong number (also called a Narcissistic number) is a number that is equal to the sum of its own digits, where each digit is raised to the power of the total number of digits in the number.
+# n = int(input("Enter a number : "))
+# def armstrong_or_not(n):
+#     global temp
+#     temp = n
+#     digits = len(str(n))
+#     total = 0
+#     while n>0:
+#         digit = n%10
+#         total = total+(digit**digits)
+#         n = n//10
+#     return temp == total
+# if armstrong_or_not(n):
+#     print(f"{temp} is a armstrong number")
+# else:
+#     print(f"{temp} is not a armstrong number")
+
+#25
+# A prime number is a natural number greater than 1 that has exactly two factors:
+    # means only divisible by 1, or itself
+# n = int(input("Enter a number : "))
+# def prime_or_not(n):
+#     global cnt
+#     cnt = 0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             cnt = cnt +1
+#         else:
+#             continue
+#     return cnt
+# if prime_or_not(n)==2:
+#     print(f"{n} is a prime number ")
+# else:
+#     print(f"{n} is not a prime number")
+
+#26
+
+    
 
