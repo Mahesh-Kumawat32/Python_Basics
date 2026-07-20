@@ -49,8 +49,8 @@
 
 #CREATE A TUPLE STORE A NAME AND PERFORM SLICING FIRST AND LAST ELEMENT USING = (+,-)
 # t2 = ("Mahesh",'Bharati',"Satyam","Harsh","Meet","Kevin")
-# print(t2[0::5])
-# print(t2[min(len(t2))::-5])
+# # print(t2[0::5])
+# print(t2[-(len(t2))::len(t2)-1])
 
 #CREATE A TUPLE ADD STUDENTS NAME AND ADD MORE NAME USING LIST CONVERSION---|
 #CREATE TUPLE AND REMOVE TWO ITEMS USING LIST CONVERSION--------------------|--------->>ALL IN ONE CODE
@@ -70,6 +70,6 @@
 
 
 #FIND TUPLE USING LOOPS
-t4 = (1,2,3,4,"Mahesh",3+8j)
-for i in range(0,len(t4)):
-    print(t4[i], end = " ")
+# t4 = (1,2,3,4,"Mahesh",3+8j)
+# for i in range(0,len(t4)):
+#     print(t4[i], end = " ")
