@@ -242,7 +242,15 @@
 # else:
 #     print(f"{n} is not a prime number")
 
-#26
-
+#=======================================================
+#ANOTHER SET
+#=======================================================
+#1
+l = float(input("Enter Length : "))
+b = float(input("Enter Width : "))
+def calculate_area(l,b):
+    print(f"The area of rectangle which length is {l} and width is {b} is : {l*b}")
+calculate_area(l,b)
     
+#2
 
