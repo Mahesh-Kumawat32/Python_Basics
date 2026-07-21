@@ -129,3 +129,105 @@ Project - 10 : Hotel Room Booking System
 
 Goal:
 Complete all 100 practicals and 10 projects without referring to notes to master Python Functions from Beginner to Advanced.
+
+
+==========================
+20 Practical Python Function Questions
+==========================
+
+1. Calculate Area
+   Write a function `calculate_area(length, width)` that returns the area of a rectangle.
+
+2. Check Even or Odd
+   Write a function `is_even(num)` that returns `True` if the number is even; otherwise, return `False`.
+
+3. Find Maximum
+   Write a function `find_max(a, b, c)` that returns the largest of three numbers.
+
+4. Temperature Converter
+   Write a function `celsius_to_fahrenheit(celsius)` that converts Celsius to Fahrenheit.
+
+5. Count Vowels
+   Write a function `count_vowels(text)` that returns the number of vowels in a string.
+
+6. Palindrome Checker
+   Write a function `is_palindrome(word)` that returns `True` if the given word is a palindrome.
+
+7. Factorial
+   Write a function `factorial(n)` that returns the factorial of a number without using the `math` module.
+
+8. Prime Number Checker
+   Write a function `is_prime(n)` that returns `True` if the number is prime; otherwise, return `False`.
+
+9. Remove Duplicates
+   Write a function `remove_duplicates(lst)` that removes duplicate elements from a list while preserving the original order.
+
+10. Average Marks
+    Write a function `calculate_average(marks)` that accepts a list of marks and returns the average.
+
+11. Second Largest Number
+    Write a function `second_largest(numbers)` that returns the second largest unique number in a list.
+
+12. Word Frequency Counter
+    Write a function `word_frequency(sentence)` that returns a dictionary containing each word and its frequency.
+
+13. Password Strength Checker
+    Write a function `check_password(password)` that checks whether a password:
+    - Has at least 8 characters
+    - Contains uppercase and lowercase letters
+    - Contains at least one digit
+    - Contains at least one special character
+
+14. Merge Dictionaries
+    Write a function `merge_dicts(dict1, dict2)` that merges two dictionaries. If a key exists in both dictionaries, add their values.
+
+15. Shopping Bill Calculator
+    Write a function `calculate_bill(cart)` where `cart` is a dictionary of item names and prices. Return the total bill including 18% GST.
+
+16. Student Grade Calculator
+    Write a function `calculate_grade(marks)` that returns:
+    - A : 90–100
+    - B : 80–89
+    - C : 70–79
+    - D : 60–69
+    - F : Below 60
+
+17. ATM Withdrawal
+    Write a function `withdraw(balance, amount)` that:
+    - Checks if the balance is sufficient
+    - Deducts the withdrawal amount
+    - Returns the updated balance or an error message
+
+18. Expense Tracker
+    Write a function `total_expenses(expenses)` that accepts a list of daily expenses and returns:
+    - Total expense
+    - Highest expense
+    - Average expense
+
+19. Email Validator
+    Write a function `is_valid_email(email)` that checks whether:
+    - The email contains exactly one '@'
+    - It has a valid domain name
+    - It ends with '.com', '.org', or '.net'
+
+20. Library Book Search
+    Write a function `search_book(books, title)` where `books` is a list of dictionaries. Return the book details if found; otherwise, return "Book not found".
+
+==========================
+Bonus Project
+==========================
+
+Build a Mini Banking System using functions:
+
+- create_account()
+- deposit()
+- withdraw()
+- check_balance()
+- transaction_history()
+
+Requirements:
+- Store account details using dictionaries.
+- Use functions for each operation.
+- Display a menu until the user chooses to exit.
+- Validate user inputs.
+- Keep a transaction history for each account.
