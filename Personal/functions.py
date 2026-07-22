@@ -246,11 +246,131 @@
 #ANOTHER SET
 #=======================================================
 #1
-l = float(input("Enter Length : "))
-b = float(input("Enter Width : "))
-def calculate_area(l,b):
-    print(f"The area of rectangle which length is {l} and width is {b} is : {l*b}")
-calculate_area(l,b)
+# l = float(input("Enter Length : "))
+# b = float(input("Enter Width : "))
+# def calculate_area(l,b):
+#     print(f"The area of rectangle which length is {l} and width is {b} is : {l*b}")
+# calculate_area(l,b)
     
 #2
+# def evenodd(n):
+#     if n%2==0:
+#         print(f"{n} is even")
+#     else:
+#         print(f"{n} is odd")
+# n = int(input("Enter a number : "))
+# evenodd(n)
 
+#3
+# def max_or_min(a,b,c):
+#     if a>b and a>c:
+#         print(f"{a} is maximum")
+#     elif b>a and b>c:
+#         print(f"{b} is maximum")
+#     else:
+#         print(f"{c} is maximum")
+# a = int(input("Enter a number : "))
+# b = int(input("Enter a number : "))
+# c = int(input("Enter a number : "))
+# max_or_min(a,b,c)
+
+#4
+# def calcius_to_feranhide(c):
+#     far = (c*(9/5))+32 
+#     return far
+# c = float(input("Enter temprature in celcius : "))
+# print(f"""Calcius = {c}\nFahrenheit = {calcius_to_feranhide(c)}""")
+
+#5
+# something = input("Enter a word : ")
+# def find_vowel(something):
+#     cnt = 0
+#     for i in something:
+#         if i=='a' or i=="e" or i=='i' or i == 'o' or i =='u' or i=='A' or i=="E" or i=='I' or i == 'O' or i =='U':
+#             cnt = cnt +1
+#         else:
+#             continue
+#     return cnt
+# print(f"The vowel in the word {something} are total : {find_vowel(something)}")
+
+#6
+# n = int(input("Enter a number : "))
+# def find_pelindrome_or_not(n):
+#     temp = n
+#     remain = 0
+#     reverse = 0
+#     while temp>0:
+#         remain = temp %10
+#         reverse = reverse * 10 + remain
+#         temp = temp //10
+#     if reverse==n:
+#         print(f"The number {n} is a pelindrome number because {n} = {reverse}")
+#     else:
+#         print(f"{n} is not a pelindrome number because {n} != {reverse}")
+# find_pelindrome_or_not(n)
+
+#7
+# def find_fact(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact = fact * i
+#     print(f"The factorial of the number {n} is {fact}")
+# n = int(input("Enter a number which factorial you want : "))
+# find_fact(n)
+
+#8
+# n = int(input("Enter a number to check it is prime or not : "))
+# def find_prime_or_not(n):
+#     cnt = 0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             cnt += 1
+#         else:
+#             continue
+#     if cnt ==2:
+#         print(f"The number {n} is a prime number")
+#     else:
+#         print(f"{n} is not a prime number")
+# find_prime_or_not(n)
+
+#9
+# method -1: using type conversion list --->set-->list
+# l = []
+# while True:
+#     n = int(input("Enter element of list : "))
+#     l.append(n)
+#     choice = input("You want to add more element to list (yes/no) : ")
+#     if choice =="Yes" or choice =="yes":
+#         continue
+#     elif choice =="No" or choice == "no":
+#         break
+# def find_unique_from_list(l):
+#     l = set(l)
+#     l.union()
+#     l = list(l)
+#     print(f"After removing duplicate elements list is {l}")
+# print(f"\n\n\nBefore removing duplicate elements list is {l}")
+# find_unique_from_list(l)
+
+
+#method -2: using list itself
+# l = []
+# while True:
+#     n = int(input("Enter element of list : "))
+#     l.append(n)
+#     choice = input("You want to add more element to list (yes/no) : ")
+#     if choice =="Yes" or choice =="yes":
+#         continue
+#     elif choice =="No" or choice == "no":
+#         break
+# def find_unique_from_list(l):
+#     cnt = 0
+#     for i in range(0,len(l)):
+#         cnt = l.count(i)
+#         if cnt==1:
+#             continue
+#         else:
+#             while l.count(i)>1:
+#                 l.remove(i)
+#     print(sorted(l))
+# find_unique_from_list(l)
