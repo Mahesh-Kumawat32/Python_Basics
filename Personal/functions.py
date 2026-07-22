@@ -418,11 +418,41 @@
 #     print(data)
 # word_frequency(s)
 
+
 #13
 
 #14
 
 #15
+# cst_name = input("Enter Customer Name : ")
+# dt = "22-07-2026"
+# addrs = input("Enter Customer Address : ")
+# bill_data = {}
+# def bill(cst_name, dt, addrs):
+#     while True:
+#         n = input("Enter item name : ")
+#         price = float(input("Enter item price : "))
+#         total_peice = int(input("Enter items peice : "))
+#         bill_data[n] = (price*total_peice+(price*total_peice*0.18))
+#         choice = input("You want to add more items to bill(yes,no) : ")
+#         if choice == "yes":
+#             continue
+#         else:
+#             break
+#     greet = "BILL"
+#     print(greet.center(50,"="))
+#     print(f"Customer Name : {cst_name}")
+#     print(f"Customer Address : {addrs}")
+#     print(f"Date : {dt}")
+#     for a,b in bill_data.items():
+#         print(f"{a} : {b}")
+#     total_bill = 0
+#     for i in bill_data.values():
+#          total_bill= total_bill + i
+#     print(f"Total Amount : {total_bill}")
+#     end="="
+#     print(end.center(50,"="))
+# bill(cst_name, dt, addrs)
 
 #16
 # heading = "GET RESULT"
@@ -453,6 +483,60 @@
 # print(ending.center(100,"*"))
 
 #17
+# cst_names = {
+#     "12345678" : {"Name" : "MAHESH KUMAWAT",    "Age":  19, "Current Balance":10000},
+#     "23456789" : {"Name" : "CHAMPALAL KUMAWAT", "Age" : 30, "Current Balance":100000},
+#     "34567890" : {"Name" : "SURESH KUMAWAT",    "Age" : 22, "Current Balance":30000},
+#     "45678901" : {"Name" : "KHUSH KUMAWAT",     "Age" : 20, "Current Balance":50000},
+#     "56789012" : {"Name" : "NARAYAN KUMAWAT",   "Age" : 28, "Current Balance":70000}
+# }
+# head = "SBI ATM"
+# print(head.center(100,"="))
+# language = input("SELECT LANGUAGE\nFOR ENGLISH PRESS : E\nFOR HINDI PRESS : H\n:==> ")
+# choice = input("SELECT CHOICE\nFOR WITHDRAWL AMOUNT PRESS : W\nFOR CHECK AMOUNT PRESS : C\n:==>> ")
+# def atmWithdrawl(choice):
+#     main_format = "="
+#     while True:
+#         if choice =="W":
+#             ac = input("ENTER YOUR 8 DIGIT AC/NO : ")
+#             if ac in cst_names:
+#                 withdrawl_amt  = int(input("ENTER AMOUNT WANT TO WITHDRWAL : "))
+#                 if cst_names[ac]["Current Balance"]>withdrawl_amt:
+#                     print(f"✔ YOU CAN WITHDRAWL : {withdrawl_amt}")
+#                     confirm_withdrawl = input("FOR CONFIRM WITHDRAWL PRESS (D) : ")
+#                     if confirm_withdrawl=="D":
+#                         print("\n")
+#                         print(main_format.center(100,"="))
+#                         print(f"NAME : {cst_names[ac]["Name"]}")
+#                         print(f"AGE : {cst_names[ac]["Age"]}")
+#                         print(f"AC/NO : {ac}")
+#                         print(f"WITHDRAWL AMOUNT : {withdrawl_amt}")
+#                         print(f"CURRENT BALANCE : {(cst_names[ac]["Current Balance"] - withdrawl_amt)}")
+#                         print(f"PREVIOUS BALANCE : {cst_names[ac]["Current Balance"]}")
+#                         print(main_format.center(100,"="))
+#                 else:
+#                     print("\n")
+#                     print(main_format.center(100,"="))
+#                     print(f"😔YOU CANNOT WITHDRAWL {withdrawl_amt} BECAUSE YOUR BALANCE IS {cst_names[ac]["Current Balance"]}")
+#                     print("PLEASE TRY AGAIN 🙂")
+#                     print(main_format.center(100,"="))
+#             else:
+#                 print(f"CHECK YOUR ACCOUNT NUMBER AGAIN!")
+#         elif choice =="C":
+#             ac = input("ENTER YOUR 8 DIGIT AC/NO : ")
+#             for a,b in cst_names[ac].items():
+#                 print(f"{a} : {b}")
+#             print(f"AC/NO : {ac}")
+#         else:
+#             print("YOU ENTER SOMETHING WRONG! PLEASE ENTER THE CORRECT INPUT😡")
+#         permission = input("YOU WANT TO CONTINUE AGAIN (YES/NO)🤨: ")
+#         if permission=="YES" :
+#             continue
+#         else:
+#             break
+# atmWithdrawl(choice)
+# end = "="
+# print(end.center(100,"="))
 
 #18
 

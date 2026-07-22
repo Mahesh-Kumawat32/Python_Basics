@@ -171,14 +171,14 @@ Complete all 100 practicals and 10 projects without referring to notes to master
 12. Word Frequency Counter
     Write a function `word_frequency(sentence)` that returns a dictionary containing each word and its frequency.
 
-13. Password Strength Checker
+13. Password Strength Checker ****
     Write a function `check_password(password)` that checks whether a password:
     - Has at least 8 characters
     - Contains uppercase and lowercase letters
     - Contains at least one digit
     - Contains at least one special character
 
-14. Merge Dictionaries
+14. Merge Dictionaries  ******
     Write a function `merge_dicts(dict1, dict2)` that merges two dictionaries. If a key exists in both dictionaries, add their values.
 
 15. Shopping Bill Calculator
