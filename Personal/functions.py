@@ -374,3 +374,88 @@
 #                 l.remove(i)
 #     print(sorted(l))
 # find_unique_from_list(l)
+
+
+#10
+# marks = []
+# while True:
+#     n = int(input("Enter marks : "))
+#     marks.append(n)
+#     choice = input("You want to add more student marks to list (yes/no) : ")
+#     if choice =="Yes" or choice =="yes":
+#         continue
+#     elif choice =="No" or choice == "no":
+#         break
+# def find_avg_marks(marks):
+#     sum = 0
+#     for i in range(0,len(marks)):
+#         sum = sum + marks[i]
+#     avg_result = sum/len(marks)
+#     return avg_result
+# print(f"The Average Result of institute is {find_avg_marks(marks)}")
+
+#11
+# l = [1,2,3,4,1,5,6,2,4]
+# def find_second_largest(l):
+#     l = set(l)
+#     l.union()
+#     l = list(l)
+#     sorted(l)
+#     print(l)
+#     print(l[len(l)-2])
+# find_second_largest(l)
+
+#12
+# sentence = input("Enter a sentence : ")
+# s=sentence.lower()
+# data = {}
+# def word_frequency(s):
+#     l = s.split()
+#     cnt = 0
+#     for i in range(0,len(l)):
+#         cnt = l.count(l[i])
+#         data[l[i]] = cnt
+#     print(data)
+# word_frequency(s)
+
+#13
+
+#14
+
+#15
+
+#16
+# heading = "GET RESULT"
+# print("\n",heading.center(100,"*"))
+# student_name = input("Enter Your Name : ")
+# student_roll_no = int(input("Enter Your Roll No : "))
+# result = float(input("Enter Your Marks : "))
+# def get_result(student_name,student_roll_no, result):
+#     result_head = "MARKSHEET"
+#     print(result_head.center(30,"="))
+#     if result>=90 and result<100:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Pass\nGrade : A""")
+#     elif result>=80 and result<90:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Pass\nGrade : B""")
+#     elif result>=70 and result<80:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Pass\nGrade : C""")
+#     elif result>=60 and result<70:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Pass\nGrade : D""")
+#     elif result>=40 and result<60:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Pass\nGrade : F""")
+#     elif result<40:
+#         print(f"""Name : {student_name}\nRoll No : {student_roll_no}\nMarks(%) : {result}\nResult : Fail\nGrade : __""")
+#     else:
+#         print("You Entered Something Wrong")
+#     print(f"\t\t\nTHANK YOU")
+# get_result(student_name,student_roll_no, result)
+# ending = "*"
+# print(ending.center(100,"*"))
+
+#17
+
+#18
+
+#19
+
+#20
