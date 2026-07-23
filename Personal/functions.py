@@ -539,7 +539,45 @@
 # print(end.center(100,"="))
 
 #18
+# ALREADY DONE IN CLG PC
 
-#19
+#19------------->>NOT MYSELF USING CHATGPT
+# def email_validator(email):
+#     cnt = 0
+#     if " " in email:
+#         return False
+    
+#     if email.count("@")!=1:
+#         return False
+#     for ch in email:
+#         if ch.isdigit():
+#             break
+#     else:
+#         return False
+#     username, domain = email.split("@")
+#     if username =="" and username.islower()!=True:
+#         return False
+#     if domain=="":
+#         return False
+#     if not (
+#         domain.endswith("gmail.com") or
+#         domain.endswith(".org") or
+#         domain.endswith(".net")
+#     ):
+#             return False
+        
+#     return True
+
+# while True:
+#     permission = None
+#     email = input("Enter Email : ")
+#     if email_validator(email):
+#         print(f"✔ Valid Email {email}")
+#     else:
+#         print(f"X Invalid Email {email}")
+#         permission = input("Enter Email Again (YES/NO): ").upper()
+#     if permission!="YES":
+#         break
+
 
 #20
