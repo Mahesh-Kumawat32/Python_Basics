@@ -543,17 +543,18 @@
 
 #19------------->>NOT MYSELF USING CHATGPT
 # def email_validator(email):
-#     cnt = 0
 #     if " " in email:
 #         return False
-    
+
 #     if email.count("@")!=1:
 #         return False
+
 #     for ch in email:
 #         if ch.isdigit():
 #             break
 #     else:
 #         return False
+
 #     username, domain = email.split("@")
 #     if username =="" and username.islower()!=True:
 #         return False
@@ -564,8 +565,7 @@
 #         domain.endswith(".org") or
 #         domain.endswith(".net")
 #     ):
-#             return False
-        
+#             return False 
 #     return True
 
 # while True:
