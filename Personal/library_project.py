@@ -1,1 +1,0 @@
-#complete library system (book is availble , if availble check how much peice is availble , also show in which section of libray book is stored ,after buying generate a bill, if someone take book on rent then find charge according to days or month and generate a slip of it which mentioned the returning date and also stored details of customer, if not that returna msg)
