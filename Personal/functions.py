@@ -581,3 +581,50 @@
 
 
 #20
+# books = [
+#     {'id':1,  'title':'Python Begineer',            'author' : 'Mahesh Kumawat',    'Price':400},
+#     {'id':2,  'title':'Rich Dead Poor Dead',        'author' : 'John',              'Price':2000},
+#     {'id':3,  'title':'Wings of Fire',              'author' : 'APJ Abdul Kalam',   'Price':500},
+#     {'id':4,  'title':'Python Intermediate',        'author' : 'Mahesh Kumawat',    'Price':500},
+#     {'id':5,  'title':'Python Advance',             'author' : 'Mahesh Kumawat',    'Price':800},
+#     {'id':6,  'title':'Psychology of Money',        'author' : 'Morgan Housel',     'Price':1000},
+#     {'id':7,  'title':'The Pragmatic Programmer',   'author' : 'David Thomas',      'Price':300},
+#     {'id':8,  'title':'Git & Github',               'author' : 'Harry Das',         'Price':600},
+#     {'id':9,  'title':'Html & Css',                 'author' : 'Shradha Khapra',    'Price':550},
+#     {'id':10, 'title':'Clean Code',                 'author' : 'Robert C. Martin',  'Price':499}
+# ]
+# def search_books(books,Title):
+#     cnt = 0
+#     for i in range(0,len(books)):
+#         if Title.title()==books[i]['title']:
+#             cnt = cnt +1
+#         else:
+#             continue
+            
+#     if cnt ==1:
+#         print("\n")
+#         greet1 = "="
+#         print(greet1.center(50,"*"))
+#         print(f"{Title.title()} is Available ✔")
+#         print(greet1.center(50,"="))
+#         print(f"Book Title : {books[i]['title']}")
+#         print(f"Book Author : {books[i]['author']}")
+#         print(f"Book Price : {books[i]['Price']}")
+#         print(greet1.center(50,"="))
+
+#     else:
+#         greet2 = "="
+#         print(greet2.center(50,"="))
+#         print(f"{Title.title()} is not found")
+#         print(greet2.center(50,"="))
+# while True:
+#     Title = input("Enter Title of Book You Want : ")
+#     search_books(books,Title)
+#     permission = input("You want to search more books(YES/NO) : ").upper()
+#     if permission == "YES":
+#         continue
+#     else:
+#         break
+
+
+        
